@@ -17,4 +17,4 @@ Nastavení SEPA platebního styku je definované v Oblasti/Správa financí/Bank
 
 ## Viz také 
 [AUTOCONT Řešení](../index.md)  
-[SK Legislativní balíček](AC-SK/ac-sk-legislative-pack.md)
+[SK Legislativní balíček](../AC-SK/ac-sk-legislative-pack.md)

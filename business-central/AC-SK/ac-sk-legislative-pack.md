@@ -17,13 +17,17 @@ ms.author: v-makune
 
 |Viz|Také|
 |-|-|
-|Export statutárních výkazů - Rozvaha a Výkaz zisků a ztrát.|[Rozvaha a výkaz zisku zrát](ac-sk-balance-sheet-income-statement.md)|
-|Export Výkazu DPH.|[Výkaz DPH](ac-sk-vat.md)|
-|Nastavení exportu VIES a Intrastat.|[VIES](ac-sk-intrastat.md)|
-|Nastavení SEPA platebního styku.|[SEPA platby](ac-sk-sepa.md)|
-|Import a zpracování podnikatelských subjektů, u kterých nastaly důvody pro zrušení registrace platitele daně z přidané hodnoty.|[Institut nespolehlivosti plátce](ac-sk-unreability-payer.md)|
-|Odsouhlasení salda zákazníka a dodavatele.|[Daňové odpisy]
-|Uplatnění daňových odpisů dle počtu kalendárných měsíců dle Zákona o dani z příjmů.|[Daňové odpisy](ac-sk-tax-depreciation.md)|
+|Rozvaha a Výkaz zisku a ztrát.|[Rozvaha a Výkaz zisků a ztrát](../AC-SK/ac-sk-balance-sheet-income-statement-setup.md)|
+|Odsouhlasení salda zákazníka a dodavatele.|[Odsouhlasení salda zákazníka a dodavatele](../AC-SK/ac-sk-reconciliation-of-payable-and-receivable.md)|
+|Nastavení SEPA plateb|[SEPA plateby](../AC-SK/ac-sk-sepa.md)|
+|Uplatnění daňových odpisů dle počtu kalendárných měsíců dle Zákona o dani z příjmů.|[Odpisy](../AC-SK/ac-sk-tax-depreciation.md)|
+|Import a zpracování podnikatelských subjektů, u kterých nastaly důvody pro zrušení registrace platitele daně z přidané hodnoty.|[Nespolehlivost plátce](../AC-SK/ac-sk-unreability-payer.md)|
+|Výkaz DPH|[Výkaz DPH](../AC-SK/ac-sk-vat-check-report.md)|
+|Export výkazu DPH|[Export Výkazu DPH](../AC-SK/ac-sk-vat-statement-export.md)|
+|NAstavení exportu VIES a Intrastatu|[VIES a Intrastat](../AC-SK/ac-sk-vies.md)|
+
+
+
 
 ## Viz také
 
