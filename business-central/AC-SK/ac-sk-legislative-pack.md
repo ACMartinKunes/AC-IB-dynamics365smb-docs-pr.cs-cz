@@ -17,17 +17,18 @@ ms.author: v-makune
 
 |Viz|Také|
 |-|-|
-|Rozvaha a Výkaz zisku a ztrát.|[Rozvaha a Výkaz zisků a ztrát](../AC-SK/ac-sk-balance-sheet-income-statement-setup.md)|
-|Odsouhlasení salda zákazníka a dodavatele.|[Odsouhlasení salda zákazníka a dodavatele](../AC-SK/ac-sk-reconciliation-of-payable-and-receivable.md)|
-|Nastavení SEPA plateb|[SEPA plateby](../AC-SK/ac-sk-sepa.md)|
-|Uplatnění daňových odpisů dle počtu kalendárných měsíců dle Zákona o dani z příjmů.|[Odpisy](../AC-SK/ac-sk-tax-depreciation.md)|
-|Import a zpracování podnikatelských subjektů, u kterých nastaly důvody pro zrušení registrace platitele daně z přidané hodnoty.|[Nespolehlivost plátce](../AC-SK/ac-sk-unreability-payer.md)|
-|Výkaz DPH|[Výkaz DPH](../AC-SK/ac-sk-vat-check-report.md)|
-|Export výkazu DPH|[Export Výkazu DPH](../AC-SK/ac-sk-vat-statement-export.md)|
-|NAstavení exportu VIES a Intrastatu|[VIES a Intrastat](../AC-SK/ac-sk-vies.md)|
-
-
-
+|Export statutárních výkazů - Rozvaha a Výkaz zisků a ztrát.|[Rozvaha a výkaz zisku zrát](ac-sk-balance-sheet-income-statement.md)|
+|Nastavení exportu statutárních výkazů - Rozvaha a Výkaz zisků a ztrát.|[Statutární výkazy - nastavení](ac-sk-balance-sheet-income-statement-setup.md)|
+|Zpracování a export Výkazu DPH.|[Výkaz DPH](ac-sk-vat-statement-export.md)|
+|Nastavení Výkazu DPH.|[Výkaz DPH - nastavení](ac-sk-vat-statement-setup.md)|
+|Zpracování a export Kontrolního výkazu DPH.|[Kontrolní výkaz DPH](ac-sk-vat-check-report-export.md)|
+|Nastavení Kontrolního výkazu DPH.|[Kontrolní výkaz DPH - nastavení](ac-sk-vat-check-report-setup.md)|
+|Export Intrastatu.|[Intrastat](ac-sk-intrastat.md)|
+|Export Souhrnného hlášení.|[VIES](ac-sk-vies.md)|
+|Nastavení SEPA platebního styku.|[SEPA platby](ac-sk-sepa.md)|
+|Import dat pro podnikatelské subjekty, u kterých nastaly důvody pro zrušení registrace platitele daně z přidané hodnoty.|[Institut nespolehlivosti plátce](ac-sk-unreability-payer.md)|
+|Odsouhlasení salda zákazníka a dodavatele.|[Odsouhlasení salda](ac-sk-balance-reconciliation.md)|
+|Uplatnění daňových odpisů dle počtu kalendárných měsíců dle Zákona o dani z příjmů.|[Daňové odpisy](ac-sk-tax-depreciation.md)|
 
 ## Viz také
 

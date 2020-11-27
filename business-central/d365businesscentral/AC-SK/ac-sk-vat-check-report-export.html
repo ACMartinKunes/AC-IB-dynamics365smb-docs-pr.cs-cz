@@ -67,20 +67,45 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="výkaz-dph---export">Výkaz DPH - export</h1>
+<h1 id="kontrolní-výkaz-dph">Kontrolní výkaz DPH</h1>
 
-<p>Pro zpracování Výkazu DPH je využita standardní funkcionalita Výkazu DPH. Z důvodu zapracování slovenských legislativních specifik byla standardní funkčnost Výkazu DPH rozšířena o dodatečné funkčnosti tak, aby byla zajištěna správná kalkulace částek výkazu DPH a aby bylo možné exportovat XML soubor v požadovaném formátu. Vyexportovaný soubor je možné importovat na portál Finanční správy SR nebo do aplikace eDane.</p>
-<p>Pro export výkazu DPH použijte následující postup:</p>
+<p>Funkcionalita umožňuje zpracování Kontrolního výkazu DPH a jeho export do souboru formátu xml, který je možné importovat na portál Finanční správy SR nebo do aplikace eDane.</p>
+<h2 id="generování-kontrolního-výkazu-dph">Generování Kontrolního výkazu DPH</h2>
 <ol>
-<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Výkazy DPH</strong> a poté vyberte související odkaz.</li>
-<li>V poli <strong>Název</strong> vyberte požadovaný Název výkazu DPH.</li>
-<li>Poté zvolte funkci <strong>Export SK</strong>.</li>
-<li>Vyplňte požadovaná pole a zvolte funkci <strong>OK</strong>, která vytvoří .xml soubor.</li>
+<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Přehled kontrolních výkazů DPH</strong> a poté vyberte související odkaz.</li>
+<li>Pro založení nového Kontrolního výkazu zvolte funkci <strong>Nový</strong>.</li>
+<li>Na Kartě kontrolního výkazu DPH vyplňte příslušná pole na hlavičce. Na záložce Ostatní je potřeba správně vyplnit pole <strong>XML schéma</strong>.</li>
+<li>Pro vyplnění řádků výkazu spusťte funkci  <strong>Naplň řádky výkazu</strong>.</li>
+<li>Pro jednoduchou kontrolu zvolte funkci <strong>Náhled</strong>.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Pole <strong>Detailní položka</strong> v řádcích KV slouží pro systémové označení řádku. Pokud má hodnotu ANO  položku do kontrolního výkazu nevybere (nepřenese se do xml a nereportuje se na Finanční správu). Při uzavření KV se uzavřou i položky, které budou mít v tomto poli hodnotu ANO.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Pole <strong>Upozornění</strong> v řádcích KV je informativní pole, které upozorňuje na chybějící údaje u jednotlivých dokladů načítaných do KV.</p>
+</div>
+<h2 id="úpravy-kontrolního-výkazu-dph">Úpravy Kontrolního výkazu DPH</h2>
+<p>Uživatelsky je možné otevřít jednotlivé řádky kontrolního výkazu k editaci. Po ukončení úprav je potřebné položky v KV přepočítat.</p>
+<ol>
+<li>Na Kartě kontrolního výkazu DPH zvolte funkci <strong>Úpravy</strong> pro editaci.</li>
+<li>Po dokončení úprav zavřete okno. Systém se automaticky zeptá, zda požadujete Přepočítat součtové řádky. Potvrďte <strong>Ano</strong>.</li>
+</ol>
+<h2 id="export-kontrolního-výkazu-dph-do-xml">Export Kontrolního výkazu DPH do XML</h2>
+<ol>
+<li>Na Kartě kontrolního výkazu DPH zvolte funkci <strong>Náhled</strong>.</li>
+<li>Poté zvolte <strong>Export do XML</strong> a dotaz systému potvrďte <strong>Ano</strong>.</li>
+</ol>
+<h2 id="uzavření-kontrolního-výkazu-dph">Uzavření Kontrolního výkazu DPH</h2>
+<p>Kontrolní výkaz je nutné uzavřít až po kontrole údajů. Po uzavření kontrolního výkazu systém zablokuje opětovné načítání dat do formuláře. Údaje vygenerované před jeho uzavřením už není možno změnit ani doplnit. Uzavřený formulář není možné vymazat ze seznamu vygenerovaných KV. Po uzavření formuláře položky v tabulce Položka DPH mají zaškrtnuté pole Uzavřeno pro kontrolní výkaz.</p>
+<ol>
+<li>Na Kartě kontrolního výkazu DPH zvolte funkci <strong>Uzavřít</strong> pro jeho uzavření.</li>
 </ol>
 <h2 id="viz-také">Viz také</h2>
-<p><a href="../index.html">AUTOCONT Řešení</a>
-<a href="ac-sk-legislative-pack.html">SK Legislativní balíček</a>
-<a href="ac-sk-vat-statement-setup.html">Výkaz DPH - nastavení</a></p>
+<p><a href="../index.html">AUTOCONT Řešení</a><br>
+<a href="ac-sk-legislative-pack.html">SK Legislativní balíček</a><br>
+<a href="ac-sk-vat-check-report-setup.html">Kontrolní výkaz DPH - nastavení</a></p>
 </article>
           </div>
           
@@ -89,7 +114,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ACMartinKunes/AC-IB-dynamics365smb-docs-pr.cs-cz/blob/master/business-central/AC-SK/ac-sk-vat-statement-export.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                    <a href="https://github.com/ACMartinKunes/AC-IB-dynamics365smb-docs-pr.cs-cz/blob/master/business-central/AC-SK/ac-sk-vat-check-report-export.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
                   </li>
                 </ul>
               </div>

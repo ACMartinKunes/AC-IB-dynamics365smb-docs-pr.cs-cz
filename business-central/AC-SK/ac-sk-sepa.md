@@ -13,8 +13,10 @@ ms.author: v-makune
 
 # SEPA Platby
 
-Nastavení SEPA platebního styku je definované v Oblasti/Správa financí/Bankovní správa/Nastavení export/importu banky.
+Pro zpracování příkazu pro úhradu či výpisu ve formátu SEPA je využita standartní funkčnost systému.
+Nastavení SEPA platebního styku je **Nastavení exportu/importu banky**.
 
-## Viz také 
+## Viz také
+
 [AUTOCONT Řešení](../index.md)  
 [SK Legislativní balíček](../AC-SK/ac-sk-legislative-pack.md)

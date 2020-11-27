@@ -69,7 +69,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="výkaz-dph---nastavení">Výkaz DPH - nastavení</h1>
 
-<p>Pro zajištění správné kalkulace částek Výkazu DPH a exportu do požadované struktury XML, je potřeba nastavit několik níže uvedených oblastí.</p>
+<p>Pro generování výkazu DPH je využita standardní funkčnost systému. Tato funkčnost byla upravena o specifika slovenského vykazování.</p>
+<p>Pro zajištění správné kalkulace částek Výkazu DPH a exportu do požadované struktury XML dle slovenské legislativy, je potřeba nastavit několik níže uvedených oblastí.</p>
 <h2 id="nastavení-financí">Nastavení financí</h2>
 <p>Pro aktivování slovenských funkčností využijte následující postup:</p>
 <ol>
@@ -108,21 +109,9 @@ Pro Výkaz DPH od roku 2018 to je <strong>52068861</strong>, pro Výkaz DPH do r
 <li>Filtr kódu původu</li>
 <li>Typ dokladu</li>
 <li>Filtr typu dokladu</li>
-<li>ID elementu XML schématu</li>
+<li>ID elementu XML schématu - vyplěním bude automaticky vyplněn i Kód atributu DPH</li>
 </ul>
 <ol start="3">
-<li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
-</ol>
-<h2 id="nastavení-tuzemského-samozdanění">Nastavení tuzemského samozdanění</h2>
-<p>Pro nastavení komodit spadajících do režimu tuzemského samozdanění je využita standardní karta Čísla sazebníku.
-V Nastavení financí je možné aktivovat systémové kontroly při účtování těchto komodit.</p>
-<ol>
-<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Čísla sazebníku</strong> a poté vyberte související odkaz.</li>
-<li>Definujte jednotlivé kódy komodit a zaškrněte pro tyto kódy pole <strong>Tuzemské samozdanění</strong>.</li>
-<li>Pro kódy v režimu tuzemského samozdanění zadejte pole <strong>Kód pro vykazování</strong>.</li>
-<li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
-<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Nastavení financí</strong> a poté vyberte související odkaz.</li>
-<li>Na kartě <strong>Nastavení financí</strong> definujte pole <strong>Výše základu DPH pro tuzemské samozdanění</strong> a <strong>Datum platnosti DPH pro tuzemské samozdanění</strong>.</li>
 <li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
 </ol>
 <h2 id="nastavení-kódů-původu-pro-interní-opravní-doklady">Nastavení kódů původu pro interní opravní doklady</h2>
@@ -133,9 +122,31 @@ V Nastavení financí je možné aktivovat systémové kontroly při účtován�
 <li>Na záložce Nákup zadejte do pole <strong>Nákupní interní dobropis</strong> hodnotu INTCREDIT a do pole <strong>Nákupní vrubopis</strong> hodnotu DEBITNOTE. Hodnoty musí být nejdříve zadané v Kódech původu.</li>
 <li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
 </ol>
+<h2 id="nastavení-tuzemského-samozdanění">Nastavení tuzemského samozdanění</h2>
+<p>Pro nastavení komodit spadajících do režimu tuzemského samozdanění je využita standardní karta Čísla sazebníku.
+V Nastavení financí a Nastavení účtování DPH je možné aktivovat systémové kontroly při účtování těchto komodit.</p>
+<h3 id="nastavení-čísel-sazebníku">Nastavení čísel sazebníku</h3>
+<ol>
+<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Čísla sazebníku</strong> a poté vyberte související odkaz.</li>
+<li>Definujte jednotlivé kódy komodit a zaškrněte pro tyto kódy pole <strong>Tuzemské samozdanění</strong>.</li>
+<li>Pro kódy v režimu tuzemského samozdanění zadejte pole <strong>Kód pro vykazování</strong>.</li>
+<li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
+</ol>
+<h3 id="nastavení-financí---tuzemské-samozdanění">Nastavení financí - tuzemské samozdanění</h3>
+<ol>
+<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Nastavení financí</strong> a poté vyberte související odkaz.</li>
+<li>Na kartě <strong>Nastavení financí</strong> definujte pole <strong>Výše základu DPH pro tuzemské samozdanění</strong> a <strong>Datum platnosti DPH pro tuzemské samozdanění</strong>.</li>
+<li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
+</ol>
+<h3 id="nastavení-účtování-dph---tuzemské-samozdanění">Nastavení účtování DPH - tuzemské samozdanění</h3>
+<ol>
+<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Nastavení účtování DPH</strong> a poté vyberte související odkaz.</li>
+<li>Na kartě <strong>Nastavení účtování DPH</strong> můžete nastavit kontroly pro tuzemské samozdanění na jednotlivých kombinacích DPH účtoskupin v poli <strong>Kontrola PDP</strong>.</li>
+<li>Potvrďte pomocí tlačítka <strong>OK</strong>.</li>
+</ol>
 <h2 id="viz-také">Viz také</h2>
 <p><a href="../index.html">AUTOCONT Řešení</a><br>
-<a href="ac-sk-legislative-pack.html">SK Legislativní balíček</a>
+<a href="ac-sk-legislative-pack.html">SK Legislativní balíček</a><br>
 <a href="ac-sk-vat-statement-export.html">Výkaz DPH - export</a></p>
 </article>
           </div>
