@@ -1,3 +1,4 @@
+# [AC Solutions](../index.md)
 # [AC Financial Pack](../AC-FinancialPack/ac-finance-pack.md)
 ## [Sada rozšíření aplikace](../AC-FinancialPack/ac-controling-basic.md)
 ### [Nastavení - Sada rozšíření aplikace](../AC-FinancialPack/ac-controling-basic-setup.md)
